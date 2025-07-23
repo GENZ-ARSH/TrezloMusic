@@ -1,0 +1,1286 @@
+[23-Jul-25 11:59:49 - INFO] - VenomMusic.core.mongo - Connecting to your Mongo Database...
+[23-Jul-25 11:59:49 - INFO] - VenomMusic.core.mongo - Connected to your Mongo Database.
+[23-Jul-25 11:59:49 - INFO] - VenomMusic.core.dir - Directories Updated.
+[23-Jul-25 11:59:49 - INFO] - VenomMusic.core.git - Git Client Found [VPS DEPLOYER]
+[23-Jul-25 11:59:49 - INFO] - VenomMusic.misc - Local Database Initialized.
+[23-Jul-25 11:59:49 - INFO] - VenomMusic.core.bot - Starting Bot...
+[23-Jul-25 11:59:52 - INFO] - VenomMusic.misc - Sudoers Loaded.
+[23-Jul-25 12:00:02 - INFO] - VenomMusic.core.bot - Music Bot Started as ᴛʀᴇᴢʟᴏᴍᴜꜱɪᴄ
+[23-Jul-25 12:00:02 - INFO] - VenomMusic.plugins - Successfully Imported Modules...
+[23-Jul-25 12:00:02 - INFO] - VenomMusic.core.userbot - Starting Assistants...
+[23-Jul-25 12:00:04 - INFO] - VenomMusic.core.userbot - Assistant Started as <a href=tg://user?id=7922754294>Trezlo</a>
+[23-Jul-25 12:00:04 - INFO] - VenomMusic.core.call - Starting PyTgCalls Client...
+
+[23-Jul-25 12:00:06 - ERROR] - pyrogram.dispatcher - Telegram says: [403 PEER_ID_INVALID] - The provided peer id is invalid. 
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 67, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/storage/sqlite_storage.py", line 187, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: 7089574265'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 137, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/storage/sqlite_storage.py", line 187, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: 7089574265'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/Desktop/TrezloMusic/TrezloMusic/VenomMusic/utils/decorators/language.py", line 55, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/Desktop/TrezloMusic/TrezloMusic/VenomMusic/plugins/bot/start.py", line 90, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3453, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 291, in send_photo
+    reply_markup=await reply_markup.write(self) if reply_markup else None,
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/bots_and_keyboards/inline_keyboard_markup.py", line 63, in write
+    buttons.append(await b.write(client))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/bots_and_keyboards/inline_keyboard_button.py", line 221, in write
+    user_id=await client.resolve_peer(self.user_id)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 139, in resolve_peer
+    raise PeerIdInvalid
+pyrogram.errors.exceptions.forbidden_403.PeerIdInvalid: Telegram says: [403 PEER_ID_INVALID] - The provided peer id is invalid. 
+[23-Jul-25 12:00:12 - INFO] - VenomMusic - Venom Music Started Successfully.
+
+Don't forget to visit @venompratap
+[23-Jul-25 12:00:59 - INFO] - VenomMusic.core.mongo - Connecting to your Mongo Database...
+[23-Jul-25 12:00:59 - INFO] - VenomMusic.core.mongo - Connected to your Mongo Database.
+[23-Jul-25 12:00:59 - INFO] - VenomMusic.core.dir - Directories Updated.
+[23-Jul-25 12:00:59 - INFO] - VenomMusic.core.git - Git Client Found [VPS DEPLOYER]
+[23-Jul-25 12:00:59 - INFO] - VenomMusic.misc - Local Database Initialized.
+[23-Jul-25 12:00:59 - INFO] - VenomMusic.core.bot - Starting Bot...
+[23-Jul-25 12:01:02 - INFO] - VenomMusic.misc - Sudoers Loaded.
+[23-Jul-25 12:01:09 - INFO] - VenomMusic.core.bot - Music Bot Started as ᴛʀᴇᴢʟᴏᴍᴜꜱɪᴄ
+[23-Jul-25 12:01:09 - INFO] - VenomMusic.plugins - Successfully Imported Modules...
+[23-Jul-25 12:01:09 - INFO] - VenomMusic.core.userbot - Starting Assistants...
+[23-Jul-25 12:01:12 - INFO] - VenomMusic.core.userbot - Assistant Started as <a href=tg://user?id=7922754294>Trezlo</a>
+[23-Jul-25 12:01:12 - INFO] - VenomMusic.core.call - Starting PyTgCalls Client...
+
+[23-Jul-25 12:01:16 - ERROR] - pyrogram.dispatcher - Telegram says: [403 PEER_ID_INVALID] - The provided peer id is invalid. 
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 67, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/storage/sqlite_storage.py", line 187, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: 7089574265'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 137, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/storage/sqlite_storage.py", line 187, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: 7089574265'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/Desktop/TrezloMusic/TrezloMusic/VenomMusic/utils/decorators/language.py", line 55, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/Desktop/TrezloMusic/TrezloMusic/VenomMusic/plugins/bot/start.py", line 90, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3453, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 291, in send_photo
+    reply_markup=await reply_markup.write(self) if reply_markup else None,
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/bots_and_keyboards/inline_keyboard_markup.py", line 63, in write
+    buttons.append(await b.write(client))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/bots_and_keyboards/inline_keyboard_button.py", line 221, in write
+    user_id=await client.resolve_peer(self.user_id)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 139, in resolve_peer
+    raise PeerIdInvalid
+pyrogram.errors.exceptions.forbidden_403.PeerIdInvalid: Telegram says: [403 PEER_ID_INVALID] - The provided peer id is invalid. 
+[23-Jul-25 12:01:16 - INFO] - VenomMusic - Venom Music Started Successfully.
+
+Don't forget to visit @venompratap
+[23-Jul-25 12:01:17 - ERROR] - pyrogram.dispatcher - Telegram says: [403 PEER_ID_INVALID] - The provided peer id is invalid. 
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 67, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/storage/sqlite_storage.py", line 187, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: 7089574265'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 137, in resolve_peer
+    return await self.storage.get_peer_by_id(peer_id)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/storage/sqlite_storage.py", line 187, in get_peer_by_id
+    raise KeyError(f"ID not found: {peer_id}")
+KeyError: 'ID not found: 7089574265'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/Desktop/TrezloMusic/TrezloMusic/VenomMusic/utils/decorators/language.py", line 55, in wrapper
+    return await mystic(_, message, language)
+  File "/home/arshownerx/Desktop/TrezloMusic/TrezloMusic/VenomMusic/plugins/bot/start.py", line 90, in start_pm
+    await message.reply_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/messages_and_media/message.py", line 3453, in reply_photo
+    return await self._client.send_photo(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/send_photo.py", line 291, in send_photo
+    reply_markup=await reply_markup.write(self) if reply_markup else None,
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/bots_and_keyboards/inline_keyboard_markup.py", line 63, in write
+    buttons.append(await b.write(client))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/bots_and_keyboards/inline_keyboard_button.py", line 221, in write
+    user_id=await client.resolve_peer(self.user_id)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/resolve_peer.py", line 139, in resolve_peer
+    raise PeerIdInvalid
+pyrogram.errors.exceptions.forbidden_403.PeerIdInvalid: Telegram says: [403 PEER_ID_INVALID] - The provided peer id is invalid. 
+[23-Jul-25 12:13:10 - INFO] - VenomMusic.core.userbot - Stopping Assistants...
+[23-Jul-25 12:13:10 - INFO] - VenomMusic - Stopping Venom Music Bot...
+[23-Jul-25 12:13:21 - INFO] - VenomMusic.core.mongo - Connecting to your Mongo Database...
+[23-Jul-25 12:13:21 - INFO] - VenomMusic.core.mongo - Connected to your Mongo Database.
+[23-Jul-25 12:13:21 - INFO] - VenomMusic.core.dir - Directories Updated.
+[23-Jul-25 12:13:21 - INFO] - VenomMusic.core.git - Git Client Found [VPS DEPLOYER]
+[23-Jul-25 12:13:21 - INFO] - VenomMusic.misc - Local Database Initialized.
+[23-Jul-25 12:13:21 - INFO] - VenomMusic.core.bot - Starting Bot...
+[23-Jul-25 12:13:24 - INFO] - VenomMusic.misc - Sudoers Loaded.
+[23-Jul-25 12:13:41 - INFO] - VenomMusic.core.bot - Music Bot Started as ᴛʀᴇᴢʟᴏᴍᴜꜱɪᴄ
+[23-Jul-25 12:13:41 - INFO] - VenomMusic.plugins - Successfully Imported Modules...
+[23-Jul-25 12:13:41 - INFO] - VenomMusic.core.userbot - Starting Assistants...
+[23-Jul-25 12:13:46 - INFO] - VenomMusic.core.userbot - Assistant Started as <a href=tg://user?id=7922754294>Trezlo</a>
+[23-Jul-25 12:13:46 - INFO] - VenomMusic.core.call - Starting PyTgCalls Client...
+
+[23-Jul-25 12:13:51 - INFO] - VenomMusic - Venom Music Started Successfully.
+
+Don't forget to visit @venompratap
+[23-Jul-25 12:17:57 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content. (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/Desktop/TrezloMusic/TrezloMusic/VenomMusic/plugins/bot/help.py", line 30, in helper_private
+    await update.edit_message_text(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/bots_and_keyboards/callback_query.py", line 237, in edit_message_text
+    return await self._client.edit_message_text(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_text.py", line 102, in edit_message_text
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 94, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 422, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 390, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content. (caused by "messages.EditMessage")
+[23-Jul-25 12:17:59 - ERROR] - pyrogram.dispatcher - Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content. (caused by "messages.EditMessage")
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/dispatcher.py", line 373, in handler_worker
+    await handler.callback(self.client, *args)
+  File "/home/arshownerx/Desktop/TrezloMusic/TrezloMusic/VenomMusic/utils/decorators/language.py", line 43, in wrapper
+    return await mystic(_, CallbackQuery, language)
+  File "/home/arshownerx/Desktop/TrezloMusic/TrezloMusic/VenomMusic/plugins/bot/settings.py", line 83, in settings_back_markup
+    return await CallbackQuery.edit_message_text(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/types/bots_and_keyboards/callback_query.py", line 237, in edit_message_text
+    return await self._client.edit_message_text(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/messages/edit_message_text.py", line 102, in edit_message_text
+    r = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 94, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 422, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 390, in send
+    RPCError.raise_it(result, type(data))
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/errors/rpc_error.py", line 91, in raise_it
+    raise getattr(
+pyrogram.errors.exceptions.bad_request_400.MessageNotModified: Telegram says: [400 MESSAGE_NOT_MODIFIED] - The message was not modified because you tried to edit it using the same content. (caused by "messages.EditMessage")
+[23-Jul-25 12:35:03 - INFO] - VenomMusic.core.userbot - Stopping Assistants...
+[23-Jul-25 12:35:03 - INFO] - VenomMusic - Stopping Venom Music Bot...
+[23-Jul-25 12:35:53 - INFO] - VenomMusic.core.mongo - Connecting to your Mongo Database...
+[23-Jul-25 12:35:54 - INFO] - VenomMusic.core.mongo - Connected to your Mongo Database.
+[23-Jul-25 12:35:54 - INFO] - VenomMusic.core.dir - Directories Updated.
+[23-Jul-25 12:35:54 - INFO] - VenomMusic.core.git - Git Client Found [VPS DEPLOYER]
+[23-Jul-25 12:35:54 - INFO] - VenomMusic.misc - Local Database Initialized.
+[23-Jul-25 12:35:54 - INFO] - VenomMusic.core.bot - Starting Bot...
+[23-Jul-25 12:36:04 - INFO] - VenomMusic.misc - Sudoers Loaded.
+[23-Jul-25 12:36:31 - INFO] - VenomMusic.core.bot - Music Bot Started as ᴛʀᴇᴢʟᴏᴍᴜꜱɪᴄ
+[23-Jul-25 12:36:31 - INFO] - VenomMusic.plugins - Successfully Imported Modules...
+[23-Jul-25 12:36:31 - INFO] - VenomMusic.core.userbot - Starting Assistants...
+[23-Jul-25 12:36:34 - INFO] - VenomMusic.core.userbot - Assistant Started as <a href=tg://user?id=7922754294>Trezlo</a>
+[23-Jul-25 12:36:34 - INFO] - VenomMusic.core.call - Starting PyTgCalls Client...
+
+[23-Jul-25 12:36:39 - INFO] - VenomMusic - Venom Music Started Successfully.
+
+Don't forget to visit @venompratap
+[23-Jul-25 12:37:23 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-548' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 160, in recv
+    chunk = await asyncio.wait_for(
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/lib/python3.10/asyncio/streams.py", line 669, in read
+    await self._wait_for_data('read')
+  File "/usr/lib/python3.10/asyncio/streams.py", line 487, in _wait_for_data
+    raise RuntimeError(
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:37:24 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-565' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:37:24 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-588' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:37:24 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-610' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:37:24 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-626' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:37:25 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-649' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:37:25 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-663' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:37:25 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-535' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:37:25 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-679' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:37:27 - INFO] - VenomMusic.core.userbot - Stopping Assistants...
+[23-Jul-25 12:37:27 - INFO] - VenomMusic - Stopping Venom Music Bot...
+[23-Jul-25 12:39:24 - INFO] - VenomMusic.core.mongo - Connecting to your Mongo Database...
+[23-Jul-25 12:39:28 - INFO] - VenomMusic.core.mongo - Connected to your Mongo Database.
+[23-Jul-25 12:39:28 - INFO] - VenomMusic.core.dir - Directories Updated.
+[23-Jul-25 12:39:28 - INFO] - VenomMusic.core.git - Git Client Found [VPS DEPLOYER]
+[23-Jul-25 12:39:28 - INFO] - VenomMusic.misc - Local Database Initialized.
+[23-Jul-25 12:39:28 - INFO] - VenomMusic.core.bot - Starting Bot...
+[23-Jul-25 12:39:30 - INFO] - VenomMusic.misc - Sudoers Loaded.
+[23-Jul-25 12:39:37 - INFO] - VenomMusic.core.bot - Music Bot Started as ᴛʀᴇᴢʟᴏᴍᴜꜱɪᴄ
+[23-Jul-25 12:39:37 - INFO] - VenomMusic.plugins - Successfully Imported Modules...
+[23-Jul-25 12:39:37 - INFO] - VenomMusic.core.userbot - Starting Assistants...
+[23-Jul-25 12:39:39 - INFO] - VenomMusic.core.userbot - Assistant Started as <a href=tg://user?id=7922754294>Trezlo</a>
+[23-Jul-25 12:39:39 - INFO] - VenomMusic.core.call - Starting PyTgCalls Client...
+
+[23-Jul-25 12:39:51 - INFO] - VenomMusic - Venom Music Started Successfully.
+
+Don't forget to visit @venompratap
+[23-Jul-25 12:40:01 - ERROR] - root - Error generating thumbnail for video BImZjjRMhDw: [Errno 2] No such file or directory: 'cache/thumbBImZjjRMhDw.png'
+[23-Jul-25 12:49:15 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9386' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:16 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9411' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:16 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9449' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:16 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9473' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:17 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9486' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:17 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9381' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:18 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9525' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:18 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9554' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:18 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9576' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:19 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9624' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:19 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9626' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:20 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9639' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:20 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9647' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:20 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9468' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:21 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9681' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:21 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9721' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:21 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9730' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:22 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9732' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:22 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9745' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:22 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9444' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:23 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9788' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:23 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9790' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:23 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9792' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:23 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9334' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:24 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9844' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:24 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9846' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:24 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9855' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:24 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9857' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:25 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9901' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:25 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9903' coro=<Session.recv_worker() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:320> exception=AttributeError("'NoneType' object has no attribute 'read'")>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 161, in recv
+    self.reader.read(length - len(data)),
+AttributeError: 'NoneType' object has no attribute 'read'
+[23-Jul-25 12:49:25 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9935' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 202, in restart
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 324, in recv_worker
+    packet = await self.connection.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/connection.py", line 87, in recv
+    return await self.protocol.recv()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp_abridged.py", line 47, in recv
+    length = await super().recv(1)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/connection/transport/tcp/tcp.py", line 160, in recv
+    chunk = await asyncio.wait_for(
+  File "/usr/lib/python3.10/asyncio/tasks.py", line 445, in wait_for
+    return fut.result()
+  File "/usr/lib/python3.10/asyncio/streams.py", line 669, in read
+    await self._wait_for_data('read')
+  File "/usr/lib/python3.10/asyncio/streams.py", line 487, in _wait_for_data
+    raise RuntimeError(
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:25 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9819' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:25 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9717' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:26 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9619' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:26 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9508' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:26 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9183' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:26 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9204' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:26 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9227' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:26 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9405' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:26 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9550' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:27 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9250' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 129, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:27 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9895' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:27 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9271' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 126, in start
+    await self.send(raw.functions.Ping(ping_id=0), timeout=self.START_TIMEOUT)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:27 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9677' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 129, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:49:27 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9776' coro=<Session.restart() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py:201> exception=RuntimeError('read() called while another coroutine is already waiting for incoming data')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 129, in start
+    await self.send(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 203, in restart
+    await self.start()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 159, in start
+    await self.stop()
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 197, in stop
+    await self.recv_task
+RuntimeError: read() called while another coroutine is already waiting for incoming data
+[23-Jul-25 12:51:00 - INFO] - VenomMusic.core.userbot - Stopping Assistants...
+[23-Jul-25 12:51:00 - INFO] - VenomMusic - Stopping Venom Music Bot...
+[23-Jul-25 12:51:12 - INFO] - VenomMusic.core.mongo - Connecting to your Mongo Database...
+[23-Jul-25 12:51:12 - INFO] - VenomMusic.core.mongo - Connected to your Mongo Database.
+[23-Jul-25 12:51:12 - INFO] - VenomMusic.core.dir - Directories Updated.
+[23-Jul-25 12:51:12 - INFO] - VenomMusic.core.git - Git Client Found [VPS DEPLOYER]
+[23-Jul-25 12:51:12 - INFO] - VenomMusic.misc - Local Database Initialized.
+[23-Jul-25 12:51:12 - INFO] - VenomMusic.core.bot - Starting Bot...
+[23-Jul-25 12:51:14 - INFO] - VenomMusic.misc - Sudoers Loaded.
+[23-Jul-25 12:51:22 - INFO] - VenomMusic.core.bot - Music Bot Started as ᴛʀᴇᴢʟᴏᴍᴜꜱɪᴄ
+[23-Jul-25 12:51:22 - INFO] - VenomMusic.plugins - Successfully Imported Modules...
+[23-Jul-25 12:51:22 - INFO] - VenomMusic.core.userbot - Starting Assistants...
+[23-Jul-25 12:51:23 - INFO] - VenomMusic.core.userbot - Assistant Started as <a href=tg://user?id=7922754294>Trezlo</a>
+[23-Jul-25 12:51:23 - INFO] - VenomMusic.core.call - Starting PyTgCalls Client...
+
+[23-Jul-25 12:51:39 - INFO] - VenomMusic - Venom Music Started Successfully.
+
+Don't forget to visit @venompratap
+[23-Jul-25 12:53:55 - INFO] - VenomMusic.core.userbot - Stopping Assistants...
+[23-Jul-25 12:53:55 - INFO] - VenomMusic - Stopping Venom Music Bot...
+[23-Jul-25 12:54:38 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-9182' coro=<Client.handle_updates() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/client.py:675> exception=TimeoutError('Request timed out')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/client.py", line 718, in handle_updates
+    diff = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 94, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 445, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 445, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 445, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  [Previous line repeated 7 more times]
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 435, in invoke
+    raise e from None
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 422, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+[23-Jul-25 12:55:03 - INFO] - VenomMusic.core.mongo - Connecting to your Mongo Database...
+[23-Jul-25 12:55:04 - INFO] - VenomMusic.core.mongo - Connected to your Mongo Database.
+[23-Jul-25 12:55:04 - INFO] - VenomMusic.core.dir - Directories Updated.
+[23-Jul-25 12:55:04 - INFO] - VenomMusic.core.git - Git Client Found [VPS DEPLOYER]
+[23-Jul-25 12:55:04 - INFO] - VenomMusic.misc - Local Database Initialized.
+[23-Jul-25 12:55:04 - INFO] - VenomMusic.core.bot - Starting Bot...
+[23-Jul-25 12:55:06 - INFO] - VenomMusic.misc - Sudoers Loaded.
+[23-Jul-25 12:55:13 - INFO] - VenomMusic.core.bot - Music Bot Started as ᴛʀᴇᴢʟᴏᴍᴜꜱɪᴄ
+[23-Jul-25 12:55:13 - INFO] - VenomMusic.plugins - Successfully Imported Modules...
+[23-Jul-25 12:55:13 - INFO] - VenomMusic.core.userbot - Starting Assistants...
+[23-Jul-25 12:55:14 - INFO] - VenomMusic.core.userbot - Assistant Started as <a href=tg://user?id=7922754294>Trezlo</a>
+[23-Jul-25 12:55:14 - INFO] - VenomMusic.core.call - Starting PyTgCalls Client...
+
+[23-Jul-25 12:55:34 - INFO] - VenomMusic - Venom Music Started Successfully.
+
+Don't forget to visit @venompratap
+[23-Jul-25 12:58:26 - INFO] - VenomMusic.core.userbot - Stopping Assistants...
+[23-Jul-25 12:58:26 - INFO] - VenomMusic - Stopping Venom Music Bot...
+[23-Jul-25 13:00:08 - INFO] - VenomMusic.core.mongo - Connecting to your Mongo Database...
+[23-Jul-25 13:00:08 - INFO] - VenomMusic.core.mongo - Connected to your Mongo Database.
+[23-Jul-25 13:00:08 - INFO] - VenomMusic.core.dir - Directories Updated.
+[23-Jul-25 13:00:08 - INFO] - VenomMusic.core.git - Git Client Found [VPS DEPLOYER]
+[23-Jul-25 13:00:08 - INFO] - VenomMusic.misc - Local Database Initialized.
+[23-Jul-25 13:00:08 - INFO] - VenomMusic.core.bot - Starting Bot...
+[23-Jul-25 13:00:10 - INFO] - VenomMusic.misc - Sudoers Loaded.
+[23-Jul-25 13:00:18 - INFO] - VenomMusic.core.bot - Music Bot Started as ᴛʀᴇᴢʟᴏᴍᴜꜱɪᴄ
+[23-Jul-25 13:00:18 - INFO] - VenomMusic.plugins - Successfully Imported Modules...
+[23-Jul-25 13:00:18 - INFO] - VenomMusic.core.userbot - Starting Assistants...
+[23-Jul-25 13:00:19 - INFO] - VenomMusic.core.userbot - Assistant Started as <a href=tg://user?id=7922754294>Trezlo</a>
+[23-Jul-25 13:00:19 - INFO] - VenomMusic.core.call - Starting PyTgCalls Client...
+
+[23-Jul-25 13:00:29 - INFO] - VenomMusic - Venom Music Started Successfully.
+
+Don't forget to visit @venompratap
+[23-Jul-25 13:04:54 - INFO] - VenomMusic.core.userbot - Stopping Assistants...
+[23-Jul-25 13:04:54 - INFO] - VenomMusic - Stopping Venom Music Bot...
+[23-Jul-25 13:08:52 - INFO] - VenomMusic.core.mongo - Connecting to your Mongo Database...
+[23-Jul-25 13:08:52 - INFO] - VenomMusic.core.mongo - Connected to your Mongo Database.
+[23-Jul-25 13:08:52 - INFO] - VenomMusic.core.dir - Directories Updated.
+[23-Jul-25 13:08:52 - INFO] - VenomMusic.core.git - Git Client Found [VPS DEPLOYER]
+[23-Jul-25 13:08:52 - INFO] - VenomMusic.misc - Local Database Initialized.
+[23-Jul-25 13:08:52 - INFO] - VenomMusic.core.bot - Starting Bot...
+[23-Jul-25 13:08:55 - INFO] - VenomMusic.misc - Sudoers Loaded.
+[23-Jul-25 13:09:05 - INFO] - VenomMusic.core.bot - Music Bot Started as ᴛʀᴇᴢʟᴏᴍᴜꜱɪᴄ
+[23-Jul-25 13:09:05 - INFO] - VenomMusic.plugins - Successfully Imported Modules...
+[23-Jul-25 13:09:05 - INFO] - VenomMusic.core.userbot - Starting Assistants...
+[23-Jul-25 13:09:13 - INFO] - VenomMusic.core.userbot - Assistant Started as <a href=tg://user?id=7922754294>Trezlo</a>
+[23-Jul-25 13:09:13 - INFO] - VenomMusic.core.call - Starting PyTgCalls Client...
+
+[23-Jul-25 13:09:23 - INFO] - VenomMusic - Venom Music Started Successfully.
+
+Don't forget to visit @venompratap
+[23-Jul-25 13:12:07 - INFO] - VenomMusic.core.userbot - Stopping Assistants...
+[23-Jul-25 13:12:07 - INFO] - VenomMusic - Stopping Venom Music Bot...
+[23-Jul-25 15:43:12 - INFO] - VenomMusic.core.mongo - Connecting to your Mongo Database...
+[23-Jul-25 15:43:12 - INFO] - VenomMusic.core.mongo - Connected to your Mongo Database.
+[23-Jul-25 15:43:12 - INFO] - VenomMusic.core.dir - Directories Updated.
+[23-Jul-25 15:43:12 - INFO] - VenomMusic.core.git - Git Client Found [VPS DEPLOYER]
+[23-Jul-25 15:43:12 - INFO] - VenomMusic.misc - Local Database Initialized.
+[23-Jul-25 15:43:12 - INFO] - VenomMusic.core.bot - Starting Bot...
+[23-Jul-25 15:43:24 - INFO] - VenomMusic.misc - Sudoers Loaded.
+[23-Jul-25 15:43:39 - INFO] - VenomMusic.core.bot - Music Bot Started as ᴛʀᴇᴢʟᴏᴍᴜꜱɪᴄ
+[23-Jul-25 15:43:39 - INFO] - VenomMusic.plugins - Successfully Imported Modules...
+[23-Jul-25 15:43:39 - INFO] - VenomMusic.core.userbot - Starting Assistants...
+[23-Jul-25 15:43:51 - INFO] - VenomMusic.core.userbot - Assistant Started as <a href=tg://user?id=7922754294>Trezlo</a>
+[23-Jul-25 15:43:51 - INFO] - VenomMusic.core.call - Starting PyTgCalls Client...
+
+[23-Jul-25 15:44:13 - INFO] - VenomMusic - Venom Music Started Successfully.
+
+Don't forget to visit @venompratap
+[23-Jul-25 18:27:11 - INFO] - root - No replica set members match selector "Primary()", Timeout: 30s, Topology Description: <TopologyDescription id: 6880815da2759529dae4323d, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-unrpahz-shard-00-00.toyco5h.mongodb.net', 27017) server_type: RSSecondary, rtt: 3.2520500060018094>, <ServerDescription ('ac-unrpahz-shard-00-01.toyco5h.mongodb.net', 27017) server_type: Unknown, rtt: None, error=AutoReconnect('SSL handshake failed: ac-unrpahz-shard-00-01.toyco5h.mongodb.net:27017: [Errno 104] Connection reset by peer (configured timeouts: socketTimeoutMS: 20000.0ms, connectTimeoutMS: 20000.0ms)')>, <ServerDescription ('ac-unrpahz-shard-00-02.toyco5h.mongodb.net', 27017) server_type: RSSecondary, rtt: 0.2005887410014111>]>
+[23-Jul-25 18:27:27 - INFO] - root - No replica set members match selector "Primary()", Timeout: 30s, Topology Description: <TopologyDescription id: 6880b5b8fff5bc451755f4f9, topology_type: ReplicaSetNoPrimary, servers: [<ServerDescription ('ac-unrpahz-shard-00-00.toyco5h.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('ac-unrpahz-shard-00-00.toyco5h.mongodb.net:27017: timed out')>, <ServerDescription ('ac-unrpahz-shard-00-01.toyco5h.mongodb.net', 27017) server_type: Unknown, rtt: None, error=NetworkTimeout('ac-unrpahz-shard-00-01.toyco5h.mongodb.net:27017: timed out')>, <ServerDescription ('ac-unrpahz-shard-00-02.toyco5h.mongodb.net', 27017) server_type: RSSecondary, rtt: 2.8399435579995043>]>
+[23-Jul-25 18:33:11 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-35141' coro=<Client.handle_updates() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/client.py:675> exception=TimeoutError('Request timed out')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/client.py", line 718, in handle_updates
+    diff = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 94, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 445, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 445, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 445, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  [Previous line repeated 7 more times]
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 435, in invoke
+    raise e from None
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 422, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
+[23-Jul-25 18:33:11 - ERROR] - asyncio - Task exception was never retrieved
+future: <Task finished name='Task-35142' coro=<Client.handle_updates() done, defined at /home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/client.py:675> exception=TimeoutError('Request timed out')>
+Traceback (most recent call last):
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/client.py", line 718, in handle_updates
+    diff = await self.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/methods/advanced/invoke.py", line 94, in invoke
+    r = await session.invoke(
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 445, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 445, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 445, in invoke
+    return await self.invoke(query, retries - 1, timeout)
+  [Previous line repeated 7 more times]
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 435, in invoke
+    raise e from None
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 422, in invoke
+    return await self.send(query, timeout=timeout)
+  File "/home/arshownerx/.local/lib/python3.10/site-packages/pyrogram/session/session.py", line 384, in send
+    raise TimeoutError("Request timed out")
+TimeoutError: Request timed out
